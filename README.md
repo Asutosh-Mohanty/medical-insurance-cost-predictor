@@ -78,6 +78,7 @@ http://localhost:8501
 
 ## Application Screenshot
 
+
 ### Dashboard
 <p align="center">
 <img src="screenshot/Dashboard.png" width="800">
@@ -96,6 +97,7 @@ http://localhost:8501
 
 ## 📂 Project Structure
 
+```text
 medical-insurance-cost-predictor/
 │
 ├── app.py                   # Streamlit web application
@@ -103,7 +105,7 @@ medical-insurance-cost-predictor/
 ├── insurance.csv            # Dataset used for training
 │
 ├── insurance_model.pkl      # Trained ML model
-├── model_features.pkl       # Saved feature configuration
+├── model_features.pkl       # Feature configuration
 ├── model_score.json         # Model evaluation metrics
 │
 ├── requirements.txt         # Project dependencies
@@ -113,6 +115,7 @@ medical-insurance-cost-predictor/
     ├── Dashboard.png
     ├── prediction.png
     └── Cost_Trajectory.png
+```
 
 ## 🛠 Tech Stack
 
