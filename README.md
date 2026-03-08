@@ -20,7 +20,7 @@ R² Score ≈ 0.87
 ## Application Screenshot
 
 ### Dashboard
-![Dashboard](screenshot/dashboard.png)
+![Dashboard](screenshot/Dashboard.png)
 
 ### Prediction Page
 ![Prediction](screenshot/prediction.png)
