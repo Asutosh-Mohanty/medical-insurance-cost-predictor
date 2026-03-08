@@ -15,7 +15,9 @@ R² Score ≈ 0.87
 - Streamlit
 - Plotly
 
-## Run the App## Application Screenshots
+## Run the App
+
+## Application Screenshot
 
 ### Dashboard
 ![Dashboard](screenshot/dashboard.png)
