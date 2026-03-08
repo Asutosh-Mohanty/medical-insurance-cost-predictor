@@ -19,8 +19,10 @@ The Random Forest model was selected after comparing multiple regression algorit
 1️⃣ Clone the Repository
 git clone https://github.com/Asutosh-Mohanty/medical-insurance-cost-predictor.git
 cd medical-insurance-cost-predictor
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Train the Model (Run Once)
 python model_training.py
 
@@ -72,10 +74,16 @@ medical-insurance-cost-predictor/
 ## Application Screenshot
 
 ### Dashboard
-![Dashboard](screenshot/Dashboard.png)
+<p align="center">
+<img src="screenshot/Dashboard.png" width="800">
+</p>
 
 ### Prediction Page
-![Prediction](screenshot/prediction.png)
+<p align="center">
+<img src="screenshot/prediction.png" width="800">
+</p>
 
 ### Risk Analysis
-![Cost_Trajectory](screenshot/Cost_Trajectory.png)
+<p align="center">
+<img src="screenshot/Cost_Trajectory.png" width="800">
+</p>
