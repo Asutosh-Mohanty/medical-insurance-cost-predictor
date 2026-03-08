@@ -15,4 +15,13 @@ R² Score ≈ 0.87
 - Streamlit
 - Plotly
 
-## Run the App
+## Run the App## Application Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Prediction Page
+![Prediction](screenshots/prediction.png)
+
+### Risk Analysis
+![Risk](screenshots/Cost_Trajactory.png)
