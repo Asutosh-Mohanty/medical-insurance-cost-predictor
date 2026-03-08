@@ -18,10 +18,10 @@ R² Score ≈ 0.87
 ## Run the App## Application Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshot/dashboard.png)
 
 ### Prediction Page
-![Prediction](screenshots/prediction.png)
+![Prediction](screenshot/prediction.png)
 
 ### Risk Analysis
-![Risk](screenshots/Cost_Trajactory.png)
+![Risk](screenshot/Cost_Trajactory.png)
