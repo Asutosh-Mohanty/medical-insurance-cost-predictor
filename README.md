@@ -14,30 +14,48 @@ R² Score	~0.87
 Mean Absolute Error	~4181
 
 The Random Forest model was selected after comparing multiple regression algorithms for optimal predictive performance.
+## 🚀 How to Run
 
-## How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/Asutosh-Mohanty/medical-insurance-cost-predictor.git
-cd medical-insurance-cost-predictor
+### Step 1 — Install Dependencies
 
-2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Train the Model (Run Once)
+---
+
+### Step 2 — Train the Model (Run Once)
+
+```bash
 python model_training.py
+```
 
-This generates:
+This will generate:
 
-insurance_model.pkl → trained ML model
+* `insurance_model.pkl` → trained ML model
+* `model_features.pkl` → saved feature structure
+* `model_score.json` → evaluation metrics
 
-model_features.pkl → saved feature structure
+---
 
-model_score.json → evaluation metrics
+### Step 3 — Start the Streamlit App
 
-4️⃣ Run the Application
+```bash
 streamlit run app.py
+```
 
-The application will open automatically in your browser.
+---
+
+### Step 4 — Open in Browser
+
+The application will automatically open in your browser.
+
+If it doesn't open, go to:
+
+```
+http://localhost:8501
+```
+
 
 ## Project Structure
 medical-insurance-cost-predictor/
