@@ -2,6 +2,11 @@
 
 This project predicts medical insurance charges using Machine Learning.
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ## Overview
 
 **AI Medical Insurance Cost Predictor** is an interactive machine learning web application that estimates individual medical insurance charges based on demographic and lifestyle attributes such as **age, BMI, smoking status, region, and number of dependents**.
