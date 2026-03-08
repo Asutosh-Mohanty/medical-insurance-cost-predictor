@@ -70,12 +70,16 @@ medical-insurance-cost-predictor/
 ├── README.md                # Project documentation
 └── screenshot/              # Application UI screenshots
 
-## Tech Stack
-- Python
-- Scikit-learn
-- Pandas
-- Streamlit
-- Plotly
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| Backend | Python 3.10+, Streamlit |
+| ML / Data | Scikit-learn, Pandas, NumPy |
+| Data Visualization | Plotly |
+| Dataset | Medical Insurance Dataset (`insurance.csv`) |
+| Model Persistence | Python `pickle` |
+| Development | VS Code |
 
 ## Features of the Application
 
