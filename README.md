@@ -2,6 +2,26 @@
 
 This project predicts medical insurance charges using Machine Learning.
 
+## Overview
+
+**AI Medical Insurance Cost Predictor** is an interactive machine learning web application that estimates individual medical insurance charges based on demographic and lifestyle attributes such as **age, BMI, smoking status, region, and number of dependents**.
+
+Users enter personal and health-related information through an intuitive **Streamlit dashboard**, and the system generates an instant insurance cost prediction powered by a **Random Forest Regression model**.
+
+The application also includes **interactive analytics and visualizations** that help users understand how different risk factors influence insurance pricing.
+
+---
+
+## Features
+
+- 🎯 **Accurate Predictions** — Random Forest regression model with **R² ≈ 0.87** on test data  
+- 📊 **Interactive Dashboard** — Visual analytics for exploring insurance cost trends  
+- ⚡ **Real-time Predictions** — Instant predictions using a trained machine learning model  
+- 📈 **Data Visualization** — Interactive charts powered by **Plotly**  
+- 🧠 **Machine Learning Pipeline** — Data preprocessing, training, evaluation, and deployment  
+- 🧾 **User-friendly Interface** — Clean **Streamlit UI** for easy interaction  
+- 🔍 **Risk Factor Analysis** — Understand how BMI, smoking, and age impact insurance costs
+
 ## Model Details
 
 Algorithm Used: Random Forest Regressor
@@ -56,6 +76,23 @@ If it doesn't open, go to:
 http://localhost:8501
 ```
 
+## Application Screenshot
+
+### Dashboard
+<p align="center">
+<img src="screenshot/Dashboard.png" width="800">
+</p>
+
+### Prediction Page
+<p align="center">
+<img src="screenshot/prediction.png" width="800">
+</p>
+
+### Risk Analysis
+<p align="center">
+<img src="screenshot/Cost_Trajectory.png" width="800">
+</p>
+
 
 ## Project Structure
 medical-insurance-cost-predictor/
@@ -80,32 +117,3 @@ medical-insurance-cost-predictor/
 | Dataset | Medical Insurance Dataset (`insurance.csv`) |
 | Model Persistence | Python `pickle` |
 | Development | VS Code |
-
-## Features of the Application
-
-🔍 Predict individual medical insurance costs
-
-📈 Visualize risk factors affecting insurance pricing
-
-📊 Interactive analytics and data visualizations
-
-⚡ Fast predictions using a trained ML model
-
-🌐 User-friendly Streamlit interface
-
-## Application Screenshot
-
-### Dashboard
-<p align="center">
-<img src="screenshot/Dashboard.png" width="800">
-</p>
-
-### Prediction Page
-<p align="center">
-<img src="screenshot/prediction.png" width="800">
-</p>
-
-### Risk Analysis
-<p align="center">
-<img src="screenshot/Cost_Trajectory.png" width="800">
-</p>
