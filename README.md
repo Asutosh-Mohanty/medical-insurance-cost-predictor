@@ -39,6 +39,28 @@ R² Score	~0.87
 Mean Absolute Error	~4181
 
 The Random Forest model was selected after comparing multiple regression algorithms for optimal predictive performance.
+
+
+## 📊 Model Performance
+
+| Metric | Score |
+|------|------|
+| Algorithm | Random Forest Regressor |
+| R² Score | ~0.87 |
+| MAE | ~4181 |
+| Problem Type | Regression |
+
+## 🔄 Machine Learning Workflow
+
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training
+5. Model Evaluation
+6. Model Serialization
+7. Deployment with Streamlit
+
+
 ## 🚀 How to Run
 
 ### Step 1 — Install Dependencies
