@@ -94,18 +94,25 @@ http://localhost:8501
 </p>
 
 
-## Project Structure
+## 📂 Project Structure
+
 medical-insurance-cost-predictor/
 │
-├── app.py                    # Streamlit web application
+├── app.py                   # Streamlit web application
 ├── model_training.py        # Machine learning training pipeline
-├── insurance.csv            # Dataset
+├── insurance.csv            # Dataset used for training
+│
 ├── insurance_model.pkl      # Trained ML model
-├── model_features.pkl       # Feature configuration
+├── model_features.pkl       # Saved feature configuration
 ├── model_score.json         # Model evaluation metrics
+│
 ├── requirements.txt         # Project dependencies
 ├── README.md                # Project documentation
+│
 └── screenshot/              # Application UI screenshots
+    ├── Dashboard.png
+    ├── prediction.png
+    └── Cost_Trajectory.png
 
 ## 🛠 Tech Stack
 
