@@ -26,4 +26,4 @@ R² Score ≈ 0.87
 ![Prediction](screenshot/prediction.png)
 
 ### Risk Analysis
-![Risk](screenshot/Cost_Trajactory.png)
+![Cost_Trajectory](screenshot/Cost_Trajectory.png)
